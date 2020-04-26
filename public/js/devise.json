@@ -1,0 +1,17 @@
+[{
+    "nom": "dollars",
+    "valh": 2.45,
+    "vala": 2.45
+}, {
+    "nom": "euro",
+    "valh": 2.95,
+    "vala": 2.96
+}, {
+    "nom": "yen",
+    "valh": 0.022,
+    "vala": 0.021
+}, {
+    "nom": "livre",
+    "valh": 3.28,
+    "vala": 3.28
+}]

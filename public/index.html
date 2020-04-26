@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./res/fav.ico" type="image/png" />
+	
+
+
+    <title>myApp</title>
+</head>
+
+<body class="bg-dark">
+    <div class="container ">
+        <div class="row text-center">
+
+            <div class="col text-white">
+                <br><br><br><br><br>
+                <h1>myApp</h1>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend bg-primary">
+                            <span class="input-group-text bg-primary" id="basic-addon1"><i class="fas fa-user text-white"></i></span>
+                        </div>
+                        <input id="login" type="text" class="form-control" placeholder="Login" aria-label="Login" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend bg-primary">
+                            <span class="input-group-text bg-primary" id="basic-addon1"><i class="fas fa-key text-white"></i></span>
+                        </div>
+                        <input id="pwd" type="password" class="form-control" placeholder="*******" aria-label="pwd" aria-describedby="basic-addon1">
+                    </div>
+                    <div id="aconnexion" class="amsg" style="display: none;">
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <strong>Pas d'internet!</strong> Vérifier votre connexion
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                        </div>
+                    </div>
+                    <div id="agood" class="amsg" style="display: none;">
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>Authentification réussite!</strong> Redicrection en cours...
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                        </div>
+                    </div>
+                    <div id="abad" class="amsg" style="display: none;">
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <strong>Echec d'authentification!</strong> Prière de vérifier votre login
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                        </div>
+                    </div>
+                    <button id="b1" type="button" class="btn btn-primary btn-block">Valider</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/font.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>

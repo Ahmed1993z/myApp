@@ -1,0 +1,13 @@
+[{
+    "ville": "tunis",
+    "temperature": 13
+}, {
+    "ville": "sousse",
+    "temperature": 15
+}, {
+    "ville": "djerba",
+    "temperature": 17
+}, {
+    "ville": "beja",
+    "temperature": 9
+}]
